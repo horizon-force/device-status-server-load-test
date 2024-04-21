@@ -14,6 +14,7 @@ max_lng = -120.71525031453376
 percent_fire = 10
 percent_disabled = 2
 
+# TODO: execute on separate threads to simulate more realistic scenario
 for i in range(50000):
     scale = 1000000
     lat = float(decimal.Decimal(random.randrange(int(min_lat * scale), int(max_lat * scale))) / scale)
